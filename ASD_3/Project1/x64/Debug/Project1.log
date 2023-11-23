@@ -1,0 +1,26 @@
+﻿Сборка начата 08.04.2023 14:41:36.
+Уровень детализации журнала: Normal.     1>Проект "D:\project\ASD_3\Project1\Project1.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\Project1.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         D:\Progi\Visla\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Source.cpp
+         Source.cpp
+     1>D:\project\ASD_3\Project1\Source.cpp(9,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+       Link:
+         D:\Progi\Visla\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\project\ASD_3\x64\Debug\Project1.exe" /INCREMENTAL /ILK:"x64\Debug\Project1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\project\ASD_3\x64\Debug\Project1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\project\ASD_3\x64\Debug\Project1.lib" /MACHINE:X64 x64\Debug\Source.obj
+         Project1.vcxproj -> D:\project\ASD_3\x64\Debug\Project1.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\Project1.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\Project1.tlog\Project1.lastbuildstate".
+     1>Сборка проекта "D:\project\ASD_3\Project1\Project1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\project\ASD_3\Project1\Project1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\project\ASD_3\Project1\Source.cpp(9,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:03.59
